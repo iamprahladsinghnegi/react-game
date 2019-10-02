@@ -1,0 +1,22 @@
+.grid {
+  width: 400px;
+  // position: absolute;
+  // transform: translate(-50%, -50%);
+  // left: 50%;
+  // top: 50%;
+  color: white;
+  margin: 0 auto;
+
+  &__column {
+    transition: transform 0.4s;
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.statusText {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
