@@ -112,7 +112,7 @@ class Grid extends Component {
           isDoubleClicked: false,
           clickedCell: null
         });
-        if (this.sucess === 1) {
+        if (this.sucess === 32) {
           this.setState({ finished: true });
         }
         return;
@@ -205,7 +205,7 @@ class Grid extends Component {
       <div>
         <Row className="statusText">
           <Col span={8} align="center">
-            Sucess: {this.sucess}
+            Success: {this.sucess}
           </Col>
           <Col span={8} align="center">
             Inspect: {this.attempt}
